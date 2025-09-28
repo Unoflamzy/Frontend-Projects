@@ -1,0 +1,177 @@
+<!DOCTYPE HTML >
+<HTML lang="en">
+    <Title>Personal Portfolio</Title>
+    <Head lang="eg">
+        <Meta charset="utf-8">
+        <meta name="Basic HTML Website" content="Restructuring 02-Basic HTML Website with css">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+        <meta property = "og:title" content="Personal Portfolio" >
+        <meta property = "og:locale">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
+        <style>
+
+        .irish-grover-regular {
+        font-family: "Irish Grover", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+            .Top-Block{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 50px;
+            }
+
+            hr{
+                border: solid;
+                color: black;
+                margin-bottom: 50px;
+            }
+
+            .Middle{
+                display: flex;
+                justify-content:space-between;
+                gap: 100px;
+                padding: 20px;
+                border-top: solid;
+                border-bottom: solid;
+                margin-top: 50px;
+                
+            }
+
+
+            .Middle-TB{
+                border-left: solid;
+                border-right: solid;
+                padding: 10px;
+                margin-left: 10px;
+                text-align: center;
+            }
+
+            .Cards{
+                display: flex;
+                margin: auto;
+                align-items: center;
+            }
+
+            .Card{
+                border: solid;
+                border-radius: 15px;
+                padding: 5px;
+                margin: 10px;
+            }
+
+            .Gray{
+                color: gray;
+            }
+
+            @media only screen and (max-width: 767px) {
+            body {
+                font-size: 16px;
+                line-height: 1.5;
+                padding: 10px;
+            }
+            }
+        </style>
+    </Head>
+
+    <Body>
+            <Main style="border: solid; padding: 20px;">
+            <Header class="Top-Block">
+                <H2 class="irish-grover-regular">Caleb Nii Teiko Tagoe</H2>
+                <nav>
+                    <a href="/HTML And CSS/Roadmap.sh/Basic HTML Website/Home.html">Home</a> / 
+                    <a href="/HTML And CSS/Roadmap.sh/Basic HTML Website/Project.html" target="_blank">Projects</a> /
+                    <a href="/HTML And CSS/Roadmap.sh/Basic HTML Website/Articles.html"target="_blank">Articles</a> /
+                    <a href="/HTML And CSS/Roadmap.sh/Basic HTML Website/Contact.html" target="_blank">Contact</a>
+                </nav>
+            </Header>
+
+            <section class="Title" style="text-align: center; margin-bottom: 50px;">
+                <H1 class="irish-grover-regular">Frontend Developer</H1>
+                <p style="color: gray;">HTML only with proper layout, no styling</p>
+            </section>
+
+            <hr>
+
+
+            <Section class="Middle">
+                <article class="Middle-Left">
+                    <H1 class="irish-grover-regular">Projects</H1>
+                    <p>HTML Only Protfolio</p>
+
+                    <hr>
+                    <p>Countdown Timer</p>
+                    <p>Quiz App</p>
+                    <p>Product Upcoming Page</p>
+                </article>
+
+                <section class="Middle-TB">
+                    <article class="Middle-Top">
+                        <H1 class="irish-grover-regular">Work Experience</H1>
+                        <P><a href="roadmap.sh">Roadmap.sh</a></P>
+                        <p>Solved all the frontend projects</p>
+                        <P><a href="https://github.com/Unoflamzy">Visit my ghitHub Profile</a></P>
+                    </article>
+
+
+                    <article class="Middle-Bottom" style="border-top: solid ;">
+                        <h2 class="irish-grover-regular">OpenSource work</h2>
+                        <P>Contributions to 50 opensource projects. Made my own projects with 200 GitHub Stars.</P>
+                        <P><a href="https://github.com/Unoflamzy">Visit my ghitHub Profile</a></P>
+                    </article>
+                </section>
+
+
+                <aside class="Right-Block"> 
+                    <h1 class="irish-grover-regular">Education</h1>
+                    <p>Graduated with 3.76 out if 4 CGPA. Won Acme Hackathon. Organized 30 sessions</p>
+
+                    <p>courses i took:<p>
+                    <ul>
+                        <li>Object Oriented Programming</li>
+                        <li>Data Structures and Alorithyms</li>
+                        <li>Web Engineering</li>
+                        <li>Artificial Intelligentce</li>
+                        <li>Human Computer Interaction</li>
+                        <li>Computer Graphics</li>
+                        <li>Database Management Systems</li>
+                        <li>Distributed Database Systems</li>
+                        <li>Discret Mathematics</li>
+                    </ul>
+                </aside>
+            </Section>
+
+            <section class="Bottom">
+                <h1 style="text-align: left;" class="irish-grover-regular">Reviews from my Teachers</h1>
+
+                <section class="Cards">
+                <article class="Card">
+                    <p>Caleb was a brillianat student; always stood out with is assignments.</p>
+                    <P class="Gray">Jane Doe</P>
+                    <p class="Gray">assistant Professor</p>
+                </article>
+
+                <article class="Card">
+                    <p>Caleb was a brillianat student; always stood out with is assignments.</p>
+                    <P class="Gray">Jane Doe</P>
+                    <p class="Gray">assistant Professor</p>
+                </article>
+
+                <article class="Card">
+                    <p>Caleb was a brillianat student; always stood out with is assignments.</p>
+                    <P class="Gray">Jane Doe</P>
+                    <p class="Gray">assistant Professor</p>
+                </article>
+                </section>
+            </section>
+
+            <footer style="text-align: center; margin-top: 150px;" class="irish-grover-regular">Caleb Tagoe 2025</footer>
+        </Main>
+    </Body>

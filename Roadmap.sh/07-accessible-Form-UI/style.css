@@ -1,0 +1,125 @@
+
+main{
+    padding: 20px;
+}
+
+h1{
+    max-width: 622px;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, aquamarine, lightblue );
+}
+
+h2{
+    display: none;
+}
+
+section{
+    display: flex;
+    gap: 20px,10px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 0px solid ;
+    border-radius:15px ;
+    max-width: 600px;
+    background-image: linear-gradient( 315deg,#20bf55 50%, #01baef 50% );
+
+}
+
+.form{
+    justify-content: center;
+    align-content: center;
+    padding: 10px ;
+    color:black;
+}
+
+.form-background{
+    background-image: linear-gradient(235deg, pink 50%,#008080 50%);
+    border-radius:15px ;
+}
+
+fieldset{
+    border: none;
+    text-align: center;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 80%;
+    padding: 10px;
+    border-radius:10px ;
+}
+
+.progress{
+    padding:10px ;
+}
+
+.persentage{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.progress-bar{
+    width:100%;
+    height: 20px;
+    background-color: lightblue;
+    border-radius: 15px;
+}
+
+.level{
+    width: 65%;
+    height: 20px;
+    color: black;
+    border-radius: 15px;
+    background-color: aqua;
+    animation: animator 4s  ease-out ;
+}
+
+@keyframes animator {
+    from {width: 0%;}
+    to {width: 65%;}
+}
+
+.card p{
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.card :nth-child(5){
+    text-decoration: none;
+}
+
+.profile-card{
+    border-radius: 15px;
+    border: 0px solid;
+    background-image: linear-gradient(235deg ,#008080 50%, pink 50%);
+    color: whitesmoke;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    border-radius: 15px; 
+    background-image: linear-gradient(159deg, skyblue 12%, lightblue 50%);
+    padding: 10px;
+    color: black;
+}
+

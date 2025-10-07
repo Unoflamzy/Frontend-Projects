@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Accessible Form UI</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Accessible Form</h1>
+        <section>
+            <h2>1</h2>
+            <aside class="form">
+                <div class="form-background">
+                    <form action="https://httpbin.org/get" method="post">
+                        <fieldset>
+                            <label for="fullname">Full Name</label>
+                            <p>
+                                <input type="text" name="fullname" id="fullname" autofocus placeholder="What should we call you?">
+                            </p>
+                            <label for="email">Email</label>
+                            <p>
+                                <input type="email" name="email" id="email" placeholder="john@doe.com" aria-live="polite">
+                            </p>
+                            <label for="Enter-password">Enter Password</label>
+                            <p class="relative">
+                                <input title="Enter-password" type="password" name="Enter-password" id="Enter-password" aria-live="polite"> 
+                                <i class="absolute" id="absolute1">1</i>
+                            </p>
+                            <label for="Confirm-Password">Confirm Password</label>
+                            <p class="relative">
+                                <input title="Confirm-Password" type="password" name="Confirm-Password" id="Confirm-Password" aria-required="true">
+                                <i class="absolute" id="absolute2">1</i>
+                            </p>
+                            <button type="submit" class="button" formaction="https://httpbin.org/post" formmethod="post">Update Profile</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </aside>
+            <aside class="progress profile-card">
+                <div class="persentage">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="level">65%</div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <p>Profile Completeness</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <p>Create Account</p>
+                    <p>Update Roadmap Progress</p>
+                    <p>Setup Public Profile</p>
+                    <p>Complete Your First project</p>
+                    <p>Invite Your Friends</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script>
+let togglePassword1 = document.getElementById('absolute1');
+let togglePassword2 = document.getElementById('absolute2');
+const passwordField1 = document.getElementById('Enter-password');
+const passwordField2 = document.getElementById('Confirm-Password');
+
+togglePassword1.addEventListener('click', function() {
+  const type = passwordField1 .getAttribute('type') === 'password' ? 'text' : 'password';
+  passwordField1.setAttribute('type', type);
+  this.classList.toggle('fa-eye-slash');
+});
+
+togglePassword2.addEventListener('click', function() {
+  const type = passwordField2 .getAttribute('type') === 'password' ? 'text' : 'password';
+  passwordField2.setAttribute('type', type);
+  this.classList.toggle('fa-eye-slash');
+});
+</script>
+</body>
+</html>

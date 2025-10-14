@@ -8,3 +8,4 @@
 8. Image Grid: https://roadmap.sh/projects/image-grid
 8. Tooltip UI: https://roadmap.sh/projects/tooltip-ui
 9. Tabs: https://roadmap.sh/projects/simple-tabs
+10. Cookies Consent: https://roadmap.sh/projects/cookie-consent

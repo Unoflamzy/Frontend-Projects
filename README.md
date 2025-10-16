@@ -6,6 +6,7 @@
 6. Date Picker Ui: https://roadmap.sh/projects/datepicker-ui
 7. Asseccible Form UI: https://roadmap.sh/projects/accessible-form-ui
 8. Image Grid: https://roadmap.sh/projects/image-grid
-8. Tooltip UI: https://roadmap.sh/projects/tooltip-ui
-9. Tabs: https://roadmap.sh/projects/simple-tabs
-10. Cookies Consent: https://roadmap.sh/projects/cookie-consent
+9. Tooltip UI: https://roadmap.sh/projects/tooltip-ui
+10. Tabs: https://roadmap.sh/projects/simple-tabs
+11. Cookies Consent: https://roadmap.sh/projects/cookie-consent
+12. Restricted Textarea: https://roadmap.sh/projects/restricted-textarea

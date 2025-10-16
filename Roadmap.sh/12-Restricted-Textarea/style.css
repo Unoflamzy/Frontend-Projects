@@ -1,0 +1,38 @@
+main{
+    padding: 5px;
+    display: grid;
+    flex-wrap: wrap;
+}
+
+section{
+    display: grid;
+    padding: 10px;
+}
+
+.message-container{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    display: flex;
+}
+
+#Textarea{
+    border: none;
+    outline: none;
+    height: 70%;
+    width: 80%;
+}
+
+.bottom-left{
+    display: relative;
+}
+
+#counter{
+    position: absolute;
+    padding: 3px;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Frequently Asked Questions</h1>
+            <p>Here are some of the Frequently asked questions</p>
+        </header>
+
+        <div class="container">
+            <section>
+                <div id="Tab1" class="Tab">
+                    <h2>What is roadmap.sh?</h2>
+                    <button id="displayContent1" data-tab="tab1" class="displayContent active">V</button>
+                </div>
+                <div id="TabContent1" class="TabContent active">
+                    <p>
+                        roadmap.sh is a community effort to create learning paths, guides, projects
+                        ideas and other similar content to help developers grow in their careers.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div id="Tab2" class="Tab">
+                    <h2>What are the plans for roadmap.sh?</h2>
+                    <button id="displayContent2" data-tab="tab2" class="displayContent">V</button>
+                </div>
+                <div id="TabContent2" class="TabContent">
+                    <p>
+                        Make roadmap.sh a go-to place for developers whenever they plan on learning something new.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div id="Tab3" class="Tab">
+                    <h2>How is roadmap.sh built?</h2>
+                    <button id="displayContent3" data-tab="tab3" class="displayContent">V</button>
+                </div>
+                <div id="TabContent3" class="TabContent">
+                    <p>
+                        The website is built with Astro and Tailwind. It is deployed to GitHub Pages. 
+                        roadmap.sh The project is open-core (meaning part of it is open source) and the codebase can be found on GitHub.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div id="Tab4" class="Tab">
+                    <h2>Can I use roadmap.sh in my team?</h2>
+                    <button id="displayContent4" data-tab="tab4" class="displayContent">V</button>
+                </div>
+                <div id="TabContent4" class="TabContent">
+                    <p>
+                        You and your team can freely use roadmap.sh for:
+                        Skill development plans (e.g. assign Frontend Developer or DevOps roadmap to each role)
+                        Onboarding new developers (show them what tools and concepts they’ll encounter)
+                        Knowledge gap analysis (compare team skills to the roadmap items)
+                        Self-paced study — each teammate follows and checks off roadmap steps
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div id="Tab5" class="Tab">
+                    <h2>How can I create custom roadmaps?</h2>
+                    <button id="displayContent5" data-tab="tab5" class="displayContent">V</button>
+                </div>
+                <div id="TabContent5" class="TabContent">
+                        1: Use roadmap.sh’s Built-in Custom Roadmap Tool (Premium) roadmap.sh Premium now includes a custom roadmap editor, which lets you:
+                        <ul>
+                            <li>Build roadmaps visually with draggable nodes</li>
+                            <li>Add your own topics, links, descriptions, and checklists</li>
+                            <li>Share the roadmap privately or publicly</li>
+                            <li>Collaborate with teammates (coming soon)</li>
+                        </ul>
+
+                        <br>
+
+                        🔧 Steps:
+                        <ul>
+                            <li>Go to roadmap.sh/premium</li>
+                            <li>Create an account or log in.</li>
+                            <li>In your dashboard, select “Create Roadmap”.</li>
+                            <li>Use the visual editor to add nodes and connections.</li>
+                            <li>Save or publish your roadmap — you’ll get a sharable link.</li>
+                        </ul>
+                </div>
+            </section>
+
+            <section>
+                <div id="Tab6" class="Tab">
+                    <h2>Is roadmap.sh really 6th most stared on GitHub?</h2>
+                    <button id="displayContent6" data-tab="tab6" class="displayContent">V</button>
+                </div>
+                
+                <div id="TabContent6" class="TabContent">
+                    <p>Yes, it is generally considered the 6th most starred GitHub repo</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

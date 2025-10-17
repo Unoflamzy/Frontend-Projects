@@ -1,0 +1,30 @@
+*{
+    padding: 5px;
+    margin: 0px;
+}
+
+.click{
+    color: white;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: fill;
+}
+.input-box input {
+    position: relative;
+    flex: 1;
+}
+
+.input-box input::-webkit-calender-picker-indicator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    background-position: calc(100%-10px);
+    position: absolute;
+    cursor: pointer;
+}
+
